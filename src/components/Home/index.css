@@ -1,0 +1,12 @@
+.hb-banner {
+  background: #333;
+  min-height: 600px;
+}
+h3 {
+  color: #fff;
+  font-size: 30px;
+}
+p {
+  color: #fff;
+  font-size: 20px;
+}
