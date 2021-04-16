@@ -1,9 +1,10 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { Link, useHistory } from "react-router-dom";
 import Contact from "../Contact";
 import Home from "../Home";
 
 export default function Dashboard() {
+  const history = useHistory();
   return (
     <div
       style={{
@@ -27,7 +28,7 @@ export default function Dashboard() {
         </li>
       </ul>
 
-      <button>Login</button>
+      <button onClick={() => history.push("/login")}>login</button>
     </div>
   );
 }
